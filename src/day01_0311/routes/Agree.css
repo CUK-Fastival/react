@@ -1,0 +1,93 @@
+.agree-container>h1{
+    text-align: center;
+    padding: 50px;
+}
+
+.agree-form{
+    width:400px;
+    margin: auto;
+}
+
+.all-agree, .all-choose{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.plus{
+    cursor: pointer;
+    position: relative;
+}
+.all-agree>div, .unit>div, .all-choose>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.unit-agree{
+    padding-bottom: 10px;
+    display: none;
+}
+.unit-agree-block{
+    display: block;
+    padding-bottom: 10px;
+}
+.unit{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.sign-btn{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.sign-btn>a>button{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color:white;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    user-select:none;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 14px;
+}
+.checked{
+    display: block;
+    z-index: -1;
+}
+.no-checked{
+    display: none;
+}
+
+.detail{
+    font-size: 14px;
+    color: gray;
+    text-decoration: underline;
+    position: relative;
+    cursor: pointer;
+}
+
+.notice-comment{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.notice-hidden{
+    display: none;
+}

@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    /* border-bottom: 1px solid lightgray; */
+    align-items: center;
+    /* background-color: black; */
+}
+.header>a>h1{
+    font-family: 'cafe';
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.lan{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.lan>li:hover{
+    cursor: pointer;
+}
+.lan>li.active{
+    color: red;
+}
+.header-right>a{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* font-family: 'montserrat'; */
+    transition: .4s;
+}
+.header-right>a:hover{
+    background-color: rgba(128, 128, 128, 0.388);
+}
+
+
+.is-sticky {
+    position: sticky;
+    top:0;
+}
+.header-section.active{
+    display: flex;
+    justify-content: space-between;
+}
+.login.active{
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .header-right{
+        display: none;
+    }
+}
+@font-face {
+    font-family: "cafe";
+    font-weight: normal;
+    src: url("../fonts/Cafe24Ssurround.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "cafeair";
+    font-weight: 300;
+    src: url("../fonts/Cafe24SsurroundAir.ttf") format("truetype");
+}
+
+@media screen and (max-width:1000px) {
+    .header{
+        width: 100%;
+    }
+    .header>a>h1{
+        text-align: center;
+    }
+}

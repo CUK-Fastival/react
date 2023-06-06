@@ -1,0 +1,34 @@
+.commentlist-container{
+    padding-bottom: 100px;
+}
+
+.comment-box{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.int{
+    /* width: 1000px; */
+    width: 100%;
+    height: 50px;
+}
+.int:focus{
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-list{
+    width: 1000px;
+    margin: auto;
+}

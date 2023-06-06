@@ -1,0 +1,38 @@
+.artist-container>h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.artist-container>ul{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-bottom: 100px;
+}
+.artist-container>ul>li>a{
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.artist-line{
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    left: 1350px;
+    top: 50%;
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: bold;
+}
+.artist-line>hr{
+    background-color: white;
+    width: 100px;
+    height: 1px;
+    border: none;
+}

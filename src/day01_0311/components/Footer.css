@@ -1,0 +1,22 @@
+footer{
+    color:white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.sns-container>ul{
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.address{
+    font-weight: bold;
+}
+.team{
+    color:yellow;
+}

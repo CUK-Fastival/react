@@ -1,0 +1,114 @@
+.board-container{
+    margin-bottom: 100px;
+}
+
+.board-container>h1{
+    /* text-align: center; */
+    margin: 50px auto;
+    width: 1000px;
+    font-family: "Pretendard-Regular";
+}
+
+.board-container>div{
+    display: flex;
+    justify-content: center;
+}
+.board-container>div>div>div:nth-child(1){
+    width: 200px;
+    line-height: 50px;
+    /* border: 1px solid white; */
+}
+
+.space{
+    border-bottom: 2px solid gray;
+}
+table, td, th {
+    border-bottom : 1px solid rgb(92, 92, 92);
+    padding: 10px 0;
+    border-collapse : collapse;
+}
+
+.boardTable{
+    width: 1000px;
+    /* margin: auto; */
+    text-align: center;
+    /* margin-bottom: 100px; */
+    border-spacing: 10px;
+    /* border: 1px solid rgb(77, 77, 77); */
+}
+
+.search-container{
+    /* display: flex;
+    justify-content: space-between; */
+    padding-top: 50px;
+    width: 1000px;
+    margin:auto;
+    position: relative;
+}
+.search-window{
+    display: flex;
+    gap: 10px;
+}
+#select{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+#select:focus{
+    outline: none;
+}
+.searchBox{
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+    padding-left: 10px;
+    width: 250px;
+}
+.searchBox:focus{
+    outline: none;
+}
+.searchBtn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.writeBtn{
+    position: absolute;
+    right: 0;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.community-line{
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    left: 1350px;
+    top: 50%;
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: bold;
+}
+.community-line>hr{
+    background-color: white;
+    width: 100px;
+    height: 1px;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,14 @@
+.home-container{
+    margin-bottom: 100px;
+}
+
+.media-video{
+    padding-top: 50px;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    font-family: 'cafeair';
+}
+.media-video>h1:nth-child(1){
+    margin-bottom: 30px;
+}

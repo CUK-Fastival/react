@@ -1,0 +1,15 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+a{ text-decoration: none; color: inherit;}
+
+li{ list-style: none;}
+
+body{
+    /* background: linear-gradient(rgb(19, 19, 64), rgb(199, 199, 255)); */
+    background-color: black;
+    /* background: linear-gradient(black, white); */
+    color: white;
+}

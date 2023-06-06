@@ -1,0 +1,44 @@
+.findpw-container>h1{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.findPw-form{
+    border-top: 3px solid rgb(68, 68, 68);
+    width: 400px;
+    margin:auto;
+}
+.findPw-form>p:nth-child(1){
+    margin-top: 30px;
+}
+.findPw-form>div:nth-child(2){
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.findPw-form>div:nth-child(2)>label{
+    font-weight: bold;
+}
+.findPw-form>div:nth-child(2)>input{
+    position: relative;
+}
+
+.findPw-btn{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color:white;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    user-select:none;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

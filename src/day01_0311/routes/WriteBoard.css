@@ -1,0 +1,100 @@
+.write-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 100px;
+
+    /* position: relative; */
+}
+
+.write-container>h1{
+    /* text-align: center; */
+    margin: 50px 0 20px 0;
+}
+
+.borad-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.title-detail{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+#category{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+#category:focus{
+    outline: none;
+}
+
+.title-detail>input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    font-size: 16px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.title-detail>input:focus{
+    outline: none;
+}
+
+.board-content{
+    color:black;
+}
+.board-content>h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.ck-editor{
+}
+.ck-toolbar{
+    background-color: black;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 400px;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+.ck-content{
+    background-color: black;
+}
+
+.board-submit>button{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    margin-left: auto;
+    position: relative;
+}
+
+
+@media screen and (max-width:1000px) {
+    .write-container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .title-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    #category{
+        padding: 10px 0;
+    }
+}

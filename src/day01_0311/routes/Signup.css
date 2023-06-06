@@ -1,0 +1,61 @@
+.sign-container>h1{
+    text-align: center;
+    padding: 50px;
+}
+
+.sign-form{
+    width: 400px;
+    margin: auto;
+}
+.sign-id, .sign-pw, .sign-pw-check, .sign-tel, .sign-mail, .sign-nick{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.sign-pw, .sign-pw-check{
+    position: relative;
+}
+.eye{
+    position: absolute;
+}
+
+.signBtn{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.signBtn>button{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color:white;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    user-select:none;
+}
+
+.checkBtn{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+.checkBtn>button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    position: relative;
+}
+.input{
+    width: 100%;
+}
+
+.signBtn>button>a{
+    display: block;
+}
