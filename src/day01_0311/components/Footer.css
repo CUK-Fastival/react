@@ -20,3 +20,10 @@ footer{
 .team{
     color:yellow;
 }
+
+@media screen and (max-width: 1000px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

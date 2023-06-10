@@ -28,7 +28,7 @@ const Slider = () => {
 
     return (
         <div className="slider-container">
-            <Carousel style={{width: 1000}} autoplay>
+            <Carousel style={{width: 1000}} autoplay className='carousel'>
                 <div>
                     <div className='slider-image'>
                         <img src={img01} alt="" className='slide-img'/>

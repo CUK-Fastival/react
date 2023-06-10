@@ -12,3 +12,9 @@
 .media-video>h1:nth-child(1){
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+    .home-container{
+        width: 100%;
+    }
+}

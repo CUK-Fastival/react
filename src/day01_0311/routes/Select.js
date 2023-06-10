@@ -13,7 +13,7 @@ const Select = () => {
                         <a href="/agree" className="user-box">
                             <p className='select-title'>아티스트 가입</p>
                             <span className="mic-icon"><MdMicExternalOn /></span>
-                            <p className='select-content'>뭐라 써야 하는지..</p>
+                            <p className='select-content'>뮤지션 인증이 되는 대상자</p>
                         </a>
                     </li>
                     <li>

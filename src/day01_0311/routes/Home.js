@@ -1,6 +1,16 @@
 import './Home.css';
 import Slider from './Slider';
 import { Fireworks } from '@fireworks-js/react'
+import rock1 from '../images/rock1.jpg';
+import rock2 from '../images/rock2.jpg';
+import rock3 from '../images/rock3.jpg';
+import rock4 from '../images/rock4.jpg';
+import rock5 from '../images/rock5.jpg';
+import rock6 from '../images/rock6.jpg';
+import rock7 from '../images/rock7.jpg';
+import rock8 from '../images/rock8.jpg';
+import rock9 from '../images/rock9.jpg';
+import Carousel from './Carousel';
 
 const Home = () => {
     
@@ -32,7 +42,7 @@ const Home = () => {
             </div>
 
             <div className='poster-container'>
-                {/* <h1>"역대 경록절"</h1> */}
+                {/* <Carousel /> */}
             </div>
         </div>
     );
